@@ -24,7 +24,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
+            "tag": [
               "minecraft:sand"
             ]
           }

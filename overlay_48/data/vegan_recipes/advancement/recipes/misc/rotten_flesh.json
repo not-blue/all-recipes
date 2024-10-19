@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:meat"
+            "items": "#minecraft:meat"
           }
         ]
       }
