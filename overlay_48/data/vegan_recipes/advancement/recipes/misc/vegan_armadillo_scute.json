@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_armadillo_scute"
+        "recipe": "vegan_recipes:vegan_armadillo_scute"
       }
     },
     "has_bone_block": {
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:vegan_armadillo_scute"
+      "vegan_recipes:vegan_armadillo_scute"
     ]
   },
   "sends_telemetry_event": false

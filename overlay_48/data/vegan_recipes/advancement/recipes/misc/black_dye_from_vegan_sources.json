@@ -4,19 +4,19 @@
     "has_the_coal_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:black_dye_from_coal"
+        "recipe": "vegan_recipes:black_dye_from_coal"
       }
     },
     "has_the_charcoal_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:black_dye_from_charcoal"
+        "recipe": "vegan_recipes:black_dye_from_charcoal"
       }
     },    
     "has_the_coal_block_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:black_dye_from_coal_block"
+        "recipe": "vegan_recipes:black_dye_from_coal_block"
       }
     },
     "has_coal": {
@@ -62,9 +62,9 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:black_dye_from_charcoal",
-      "vegan_drops:black_dye_from_coal",
-      "vegan_drops:black_dye_from_coal_block"
+      "vegan_recipes:black_dye_from_charcoal",
+      "vegan_recipes:black_dye_from_coal",
+      "vegan_recipes:black_dye_from_coal_block"
     ]
   },
   "sends_telemetry_event": false

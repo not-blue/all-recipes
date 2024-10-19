@@ -4,13 +4,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_glow_ink_sac"
+        "recipe": "vegan_recipes:vegan_glow_ink_sac"
       }
     },
     "has_mirrored_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_glow_ink_sac_2"
+        "recipe": "vegan_recipes:vegan_glow_ink_sac_2"
       }
     },
     "has_glowstone_dust": {
@@ -44,8 +44,8 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:vegan_glow_ink_sac",
-      "vegan_drops:vegan_glow_ink_sac_2"
+      "vegan_recipes:vegan_glow_ink_sac",
+      "vegan_recipes:vegan_glow_ink_sac_2"
     ]
   },
   "sends_telemetry_event": false

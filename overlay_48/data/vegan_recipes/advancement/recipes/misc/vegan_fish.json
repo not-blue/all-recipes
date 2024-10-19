@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_cod"
+        "recipe": "vegan_recipes:vegan_cod"
       }
     },
     "has_bone_meal": {
@@ -20,13 +20,13 @@
     "has_salmon_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_salmon"
+        "recipe": "vegan_recipes:vegan_salmon"
       }
     },
     "has_tropical_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_tropical_fish"
+        "recipe": "vegan_recipes:vegan_tropical_fish"
       }
     }
   },
@@ -40,9 +40,9 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:vegan_cod",
-      "vegan_drops:vegan_salmon",
-      "vegan_drops:vegan_tropical_fish"
+      "vegan_recipes:vegan_cod",
+      "vegan_recipes:vegan_salmon",
+      "vegan_recipes:vegan_tropical_fish"
     ]
   },
   "sends_telemetry_event": false

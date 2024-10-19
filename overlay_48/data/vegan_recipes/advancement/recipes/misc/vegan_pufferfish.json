@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:vegan_pufferfish"
+        "recipe": "vegan_recipes:vegan_pufferfish"
       }
     },
     "has_poisonous_potato": {
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:vegan_pufferfish"
+      "vegan_recipes:vegan_pufferfish"
     ]
   },
   "sends_telemetry_event": false

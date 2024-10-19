@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_drops:wet_sponge"
+        "recipe": "vegan_recipes:wet_sponge"
       }
     },
     "has_all_ingredients": {
@@ -38,7 +38,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_drops:wet_sponge"
+      "vegan_recipes:wet_sponge"
     ]
   },
   "sends_telemetry_event": false
