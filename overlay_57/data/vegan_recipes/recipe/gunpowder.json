@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MC",
+    "CS"
+  ],
+  "key": {
+    "M": "minecraft:magma_block",
+    "C": "minecraft:charcoal",
+    "S": "#minecraft:sand"
+  },
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 4
+  }
+}

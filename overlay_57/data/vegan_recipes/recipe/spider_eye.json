@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "DAD",
+    "ABA",
+    "DAD"
+  ],
+  "key": {
+    "A": "minecraft:string",
+    "D": "minecraft:bone_meal",
+    "B": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "minecraft:spider_eye"
+  }
+}

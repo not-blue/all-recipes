@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GSG",
+    "GSG",
+    "GSG"
+  ],
+  "key": {
+    "G": "minecraft:glowstone",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "count": 3
+  }
+}
