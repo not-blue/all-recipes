@@ -1,4 +1,4 @@
-Pack name:  
-Pack URL:   
+Pack name:  notblue's vegan recipes
+Pack URL:   https://modrinth.com/datapack/vegan-recipes
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
