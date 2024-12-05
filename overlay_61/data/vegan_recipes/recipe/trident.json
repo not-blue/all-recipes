@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " BB",
+    " CB",
+    "C  "
+  ],
+  "key": {
+    "B": "minecraft:sea_lantern",
+    "C": "minecraft:prismarine"
+  },
+  "result": {
+    "id": "minecraft:trident"
+  }
+}

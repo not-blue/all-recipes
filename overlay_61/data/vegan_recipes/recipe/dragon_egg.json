@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#B#",
+      "#O#",
+      "#*#"
+    ],
+    "key": {
+      "#": "minecraft:crying_obsidian",
+      "O": "minecraft:egg",
+      "*": "minecraft:end_crystal",
+      "B": "minecraft:dragon_breath"
+    },
+    "result": {
+      "id": "minecraft:dragon_egg"
+    }
+  }
+  
