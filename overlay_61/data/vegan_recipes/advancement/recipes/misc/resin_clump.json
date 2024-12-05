@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "vegan_recipes:resin_clump"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      },
+      "has_pale_oak_logs": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#minecraft:pale_oak_logs"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_pale_oak_logs"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "vegan_recipes:resin_clump"
+      ]
+    }
+  }
