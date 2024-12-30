@@ -24,6 +24,7 @@ This pack provides recipes for most peaceful and hostile mob drops using vegan i
 - Ochre froglight
 - Pearlescent froglight
 - Phantom membrane
+- Prismarine shard
 - Pufferfish
 - Rabbit foot
 - Rabbit hide
