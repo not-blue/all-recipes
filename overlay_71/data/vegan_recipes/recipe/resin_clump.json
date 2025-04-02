@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "###",
+      "#O#",
+      "###"
+    ],
+    "key": {
+      "#": "minecraft:honey_bottle",
+      "O": "#minecraft:pale_oak_logs"
+    },
+    "result": {
+      "id": "minecraft:resin_clump",
+      "count": 4
+    }
+  }

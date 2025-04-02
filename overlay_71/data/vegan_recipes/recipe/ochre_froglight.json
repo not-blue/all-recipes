@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "froglight",
+  "pattern": [
+    "DMD",
+    "MGM",
+    "DMD"
+  ],
+  "key": {
+    "M": "minecraft:phantom_membrane",
+    "D": "minecraft:glowstone_dust",
+    "G": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "minecraft:ochre_froglight"
+  }
+}

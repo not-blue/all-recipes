@@ -24,9 +24,16 @@
       {
         "formats": {
           "min_inclusive": 61,
-          "max_inclusive": 999
+          "max_inclusive": 70
         },
         "directory": "overlay_61"
+      },
+      {
+        "formats": {
+          "min_inclusive": 71,
+          "max_inclusive": 999
+        },
+        "directory": "overlay_71"
       }
     ]
 }
