@@ -10,13 +10,16 @@
   "overlays": {
     "entries": [
       {
-        "formats": 57,
+        "formats": {
+          "min_inclusive": 57,
+          "max_inclusive": 999
+        },
         "directory": "overlay_57"
       },
       {
         "formats": {
           "min_inclusive": 61,
-          "max_inclusive": 70
+          "max_inclusive": 999
         },
         "directory": "overlay_61"
       },
