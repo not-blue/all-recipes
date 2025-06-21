@@ -28,6 +28,7 @@ This pack provides recipes for most peaceful and hostile mob drops using vegan i
 - Pufferfish
 - Rabbit foot
 - Rabbit hide
+- Resin clump
 - Rotten flesh
 - Salmon
 - Shulker shell
