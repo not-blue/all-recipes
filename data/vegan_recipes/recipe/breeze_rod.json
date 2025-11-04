@@ -7,15 +7,9 @@
     "ISI"
   ],
   "key": {
-    "F": {
-      "item": "minecraft:feather"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "I": {
-      "item": "minecraft:blue_ice"
-    }
+    "F": "minecraft:feather",
+    "S": "minecraft:stick",
+    "I": "minecraft:blue_ice"
   },
   "result": {
     "id": "minecraft:breeze_rod",

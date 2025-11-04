@@ -8,15 +8,9 @@
     "DMD"
   ],
   "key": {
-    "M": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "D": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "G": {
-      "item": "minecraft:glowstone"
-    }
+    "M": "minecraft:phantom_membrane",
+    "D": "minecraft:amethyst_shard",
+    "G": "minecraft:glowstone"
   },
   "result": {
     "id": "minecraft:pearlescent_froglight"

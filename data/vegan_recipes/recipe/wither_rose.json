@@ -1,21 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "CCC",
-      "CRC",
-      "CCC"
-    ],
-    "key": {
-      "C": {
-        "item": "minecraft:coal_block"
-      },
-      "R": {
-        "item": "minecraft:rose_bush"
-      }
-    },
-    "result": {
-      "id": "minecraft:wither_rose",
-      "count": 2
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CRC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:coal_block",
+    "R": "minecraft:rose_bush"
+  },
+  "result": {
+    "id": "minecraft:wither_rose",
+    "count": 2
   }
-  
+}

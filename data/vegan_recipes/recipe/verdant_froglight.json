@@ -8,15 +8,9 @@
     "DMD"
   ],
   "key": {
-    "M": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "D": {
-      "item": "minecraft:emerald"
-    },
-    "G": {
-      "item": "minecraft:glowstone"
-    }
+    "M": "minecraft:phantom_membrane",
+    "D": "minecraft:emerald",
+    "G": "minecraft:glowstone"
   },
   "result": {
     "id": "minecraft:verdant_froglight"

@@ -7,12 +7,8 @@
     "C  "
   ],
   "key": {
-    "B": {
-      "item": "minecraft:sea_lantern"
-    },
-    "C": {
-      "item": "minecraft:prismarine"
-    }
+    "B": "minecraft:sea_lantern",
+    "C": "minecraft:prismarine"
   },
   "result": {
     "id": "minecraft:trident"

@@ -8,12 +8,8 @@
     "A A"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:bone_block"
-    },
-    "B": {
-      "item": "minecraft:purple_dye"
-    }
+    "A": "minecraft:bone_block",
+    "B": "minecraft:purple_dye"
   },
   "result": {
     "id": "minecraft:shulker_shell"

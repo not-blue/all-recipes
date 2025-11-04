@@ -7,15 +7,9 @@
     "FSF"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:slime_ball"
-    },
-    "L": {
-      "item": "minecraft:leather"
-    },
-    "F": {
-      "item": "minecraft:feather"
-    }
+    "S": "minecraft:slime_ball",
+    "L": "minecraft:leather",
+    "F": "minecraft:feather"
   },
   "result": {
     "id": "minecraft:phantom_membrane"

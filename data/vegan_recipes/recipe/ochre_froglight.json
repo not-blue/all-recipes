@@ -8,15 +8,9 @@
     "DMD"
   ],
   "key": {
-    "M": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "D": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "G": {
-      "item": "minecraft:glowstone"
-    }
+    "M": "minecraft:phantom_membrane",
+    "D": "minecraft:glowstone_dust",
+    "G": "minecraft:glowstone"
   },
   "result": {
     "id": "minecraft:ochre_froglight"
