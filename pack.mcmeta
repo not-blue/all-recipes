@@ -3,7 +3,7 @@
     "pack_format": 48,
     "supported_formats": [
       48,
-      999
+      81
     ],
     "description": "Save passive mobs and play peaceful by using vegan ingredients to craft leather, feathers, slime blocks, blaze rods, gunpowder and more. For Minecraft 1.21+."
   },
@@ -12,21 +12,21 @@
       {
         "formats": {
           "min_inclusive": 57,
-          "max_inclusive": 999
+          "max_inclusive": 81
         },
         "directory": "overlay_57"
       },
       {
         "formats": {
           "min_inclusive": 61,
-          "max_inclusive": 999
+          "max_inclusive": 81
         },
         "directory": "overlay_61"
       },
       {
         "formats": {
           "min_inclusive": 71,
-          "max_inclusive": 999
+          "max_inclusive": 81
         },
         "directory": "overlay_71"
       }
