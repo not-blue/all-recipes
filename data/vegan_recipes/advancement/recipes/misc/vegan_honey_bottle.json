@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:vegan_honey_bottle"
+        "recipe": "vegan_hostile_drops:vegan_honey_bottle"
       }
     },
     "has_sugar": {
@@ -59,7 +59,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:vegan_honey_bottle"
+      "vegan_hostile_drops:vegan_honey_bottle"
     ]
   },
   "sends_telemetry_event": false

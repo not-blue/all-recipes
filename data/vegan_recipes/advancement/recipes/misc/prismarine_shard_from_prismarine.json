@@ -4,7 +4,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "vegan_recipes:prismarine_shard_from_prismarine"
+          "recipe": "vegan_hostile_drops:prismarine_shard_from_prismarine"
         }
       },
       "has_prismarine": {
@@ -26,7 +26,7 @@
     ],
     "rewards": {
       "recipes": [
-        "vegan_recipes:prismarine_shard_from_prismarine"
+        "vegan_hostile_drops:prismarine_shard_from_prismarine"
       ]
     }
   }

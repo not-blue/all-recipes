@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipe": "vegan_hostile_drops:nether_star"
       }
     },
     "has_diamond": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:diamond"]
+            "items": "minecraft:diamond"
           }
         ]
       }
@@ -22,7 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:echo_shard"]
+            "items": "minecraft:echo_shard"
           }
         ]
       }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_hostile_drops:nether_star"
     ]
   }
 }
