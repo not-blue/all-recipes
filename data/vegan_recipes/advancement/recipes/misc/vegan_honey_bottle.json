@@ -4,45 +4,45 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:vegan_honey_bottle"
+        "recipe": "vegan_hostile_drops:vegan_slime_block"
       }
     },
-    "has_sugar": {
+    "has_honey_bottle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sugar"
+            "items": "minecraft:honey_bottle"
           }
         ]
       }
     },
-    "has_glass_bottle": {
+    "has_seagrass": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glass_bottle"
+            "items": "minecraft:seagrass"
           }
         ]
       }
     },
-    "has_water_bottle": {
+    "has_bone_meal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:potion"
+            "items": "minecraft:bone_meal"
           }
         ]
       }
     },
-    "has_flower": {
+    "has_honey_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:small_flowers"
+            "items": "minecraft:honey_block"
           }
         ]
       }
@@ -51,16 +51,15 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sugar",
-      "has_glass_bottle",
-      "has_water_bottle",
-      "has_flower"
+      "has_honey_bottle",
+      "has_honey_block",
+      "has_bone_meal",
+      "has_seagrass"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:vegan_honey_bottle"
+      "vegan_hostile_drops:vegan_slime_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

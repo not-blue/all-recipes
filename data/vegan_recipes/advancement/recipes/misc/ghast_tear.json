@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:ghast_tear"
+        "recipe": "vegan_hostile_drops:ghast_tear"
       }
     },
     "has_gunpowder": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:gunpowder"]
+            "items": "minecraft:gunpowder"
           }
         ]
       }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:ghast_tear"
+      "vegan_hostile_drops:ghast_tear"
     ]
   }
 }

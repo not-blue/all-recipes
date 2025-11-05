@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:rotten_flesh"
+        "recipe": "vegan_hostile_drops:rotten_flesh"
       }
     },
     "has_meat": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:meat"
+            "items": "$minecraft:meat"
           }
         ]
       }
@@ -24,10 +24,9 @@
           {
             "items": [
               "minecraft:red_mushroom",
-              "brown_mushroom"
+              "minecraft:brown_mushroom"
             ]
           }
-          
         ]
       }
     }
@@ -41,7 +40,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:rotten_flesh"
+      "vegan_hostile_drops:rotten_flesh"
     ]
   }
 }

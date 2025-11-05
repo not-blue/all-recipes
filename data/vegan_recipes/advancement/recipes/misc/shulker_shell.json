@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:shulker_shell"
+        "recipe": "vegan_hostile_drops:shulker_shell"
       }
     },
     "has_bone": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items":["minecraft:bone"]
+            "items":"minecraft:bone"
           }
         ]
       }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:shulker_shell"
+      "vegan_hostile_drops:shulker_shell"
     ]
   }
 }

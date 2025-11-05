@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:gunpowder"
+        "recipe": "vegan_hostile_drops:gunpowder"
       }
     },
     "has_charcoal": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:charcoal"]
+            "items": "minecraft:charcoal"
           }
         ]
       }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:gunpowder"
+      "vegan_hostile_drops:gunpowder"
     ]
   }
 }
