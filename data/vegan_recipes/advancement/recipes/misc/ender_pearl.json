@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:ender_pearl"
+        "recipe": "vegan_recipes:ender_pearl"
       }
     },
     "has_slime": {
@@ -40,7 +40,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:ender_pearl"
+      "vegan_recipes:ender_pearl"
     ]
   }
 }

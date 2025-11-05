@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:nether_star"
+        "recipe": "vegan_recipes:nether_star"
       }
     },
     "has_diamond": {
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:nether_star"
+      "vegan_recipes:nether_star"
     ]
   }
 }

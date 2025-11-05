@@ -4,7 +4,7 @@
     "has_pearlescent_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:pearlescent_froglight"
+        "recipe": "vegan_recipes:pearlescent_froglight"
       }
     },
     "has_verdant_recipe": {

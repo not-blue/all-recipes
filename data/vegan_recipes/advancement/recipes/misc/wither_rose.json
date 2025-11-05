@@ -4,7 +4,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "vegan_hostile_drops:wither_rose"
+          "recipe": "vegan_recipes:wither_rose"
         }
       },
       "has_soul_sand": {
@@ -26,7 +26,7 @@
     ],
     "rewards": {
       "recipes": [
-        "vegan_hostile_drops:wither_rose"
+        "vegan_recipes:wither_rose"
       ]
     },
     "sends_telemetry_event": false

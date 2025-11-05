@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:phantom_membrane"
+        "recipe": "vegan_recipes:phantom_membrane"
       }
     },
     "has_slime": {
@@ -51,7 +51,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:phantom_membrane"
+      "vegan_recipes:phantom_membrane"
     ]
   }
 }
