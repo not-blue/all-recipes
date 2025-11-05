@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:vegan_rabbit_hide"
+        "recipe": "vegan_recipes:vegan_rabbit_hide"
       }
     },
     "has_honeycomb": {
@@ -48,7 +48,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:vegan_rabbit_hide"
+      "vegan_recipes:vegan_rabbit_hide"
     ]
   },
   "sends_telemetry_event": false

@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:trident"
+        "recipe": "vegan_recipes:trident"
       }
     },
     "has_sea_lantern": {
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:trident"
+      "vegan_recipes:trident"
     ]
   }
 }

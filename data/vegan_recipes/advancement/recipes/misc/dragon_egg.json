@@ -4,7 +4,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "vegan_hostile_drops:dragon_egg"
+          "recipe": "vegan_recipes:dragon_egg"
         }
       },
       "has_end_crystal": {
@@ -26,7 +26,7 @@
     ],
     "rewards": {
       "recipes": [
-        "vegan_hostile_drops:dragon_egg"
+        "vegan_recipes:dragon_egg"
       ]
     },
     "sends_telemetry_event": false

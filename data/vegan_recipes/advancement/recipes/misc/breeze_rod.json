@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:breeze_rod"
+        "recipe": "vegan_recipes:breeze_rod"
       }
     },
     "has_blue_ice": {
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:breeze_rod"
+      "vegan_recipes:breeze_rod"
     ]
   }
 }

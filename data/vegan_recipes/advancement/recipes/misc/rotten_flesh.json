@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:rotten_flesh"
+        "recipe": "vegan_recipes:rotten_flesh"
       }
     },
     "has_meat": {
@@ -40,7 +40,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:rotten_flesh"
+      "vegan_recipes:rotten_flesh"
     ]
   }
 }

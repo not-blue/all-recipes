@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:totem_of_undying"
+        "recipe": "vegan_recipes:totem_of_undying"
       }
     },
     "has_emerald_block": {
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:totem_of_undying"
+      "vegan_recipes:totem_of_undying"
     ]
   }
 }
