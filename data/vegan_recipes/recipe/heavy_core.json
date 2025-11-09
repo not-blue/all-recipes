@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_block",
+    "x": "minecraft:netherite_block"
+  },
+  "pattern": [
+    "###",
+    "#x#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:heavy_core"
+  }
+}
