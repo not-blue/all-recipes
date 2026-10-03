@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "gunpowder",
   "category": "misc",
+  "group": "gunpowder",
   "pattern": [
     "bbb",
     "cSc",
