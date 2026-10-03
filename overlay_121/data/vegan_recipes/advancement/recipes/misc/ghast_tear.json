@@ -4,25 +4,15 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:ghast_tear"
       }
     },
-    "has_diamond": {
+    "has_gunpowder": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
-          }
-        ]
-      }
-    },
-    "has_echo_shard": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:echo_shard"
+            "items": "minecraft:gunpowder"
           }
         ]
       }
@@ -31,13 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_gunpowder"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:ghast_tear"
     ]
   }
 }

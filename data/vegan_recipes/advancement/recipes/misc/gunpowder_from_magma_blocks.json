@@ -4,25 +4,25 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipe": "vegan_recipes:gunpowder_from_magma_blocks"
       }
     },
-    "has_diamond": {
+    "has_charcoal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": "minecraft:charcoal"
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": "#minecraft:sand"
           }
         ]
       }
@@ -31,13 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_charcoal",
+      "has_sand"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:gunpowder_from_magma_blocks"
     ]
   }
 }

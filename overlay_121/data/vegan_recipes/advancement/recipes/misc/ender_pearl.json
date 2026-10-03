@@ -4,25 +4,28 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:ender_pearl"
       }
     },
-    "has_diamond": {
+    "has_slime": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": [
+              "minecraft:slime_ball",
+              "minecraft:slime_block"
+            ]
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_bone_meal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": "minecraft:bone_meal"
           }
         ]
       }
@@ -31,13 +34,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_slime",
+      "has_bone_meal"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:ender_pearl"
     ]
   }
 }

@@ -4,25 +4,15 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:vegan_rabbit_foot"
       }
     },
-    "has_diamond": {
+    "has_rabbit_hide": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
-          }
-        ]
-      }
-    },
-    "has_echo_shard": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:echo_shard"
+            "items": "minecraft:rabbit_hide"
           }
         ]
       }
@@ -31,13 +21,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_rabbit_hide"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:vegan_rabbit_foot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

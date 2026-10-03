@@ -3,5 +3,21 @@
     "min_format": [88, 0],
     "max_format": [999, 0],
     "description": "Save passive mobs and play peaceful by using vegan ingredients to craft leather, feathers, slime blocks, blaze rods, gunpowder and more."
-  }
+  },
+  "overlays": {
+		"entries": [
+			{
+				"min_format": [107, 0],
+				"max_format": [999, 0],
+				"directory": "overlay_107"
+				}
+		],
+    "entries": [
+			{
+				"min_format": [121, 0],
+				"max_format": [999, 0],
+				"directory": "overlay_121"
+				}
+		]
+	}
 }

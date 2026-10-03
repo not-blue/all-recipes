@@ -4,25 +4,35 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:vegan_rabbit_hide"
       }
     },
-    "has_diamond": {
+    "has_honeycomb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": "minecraft:honeycomb"
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_paper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": "minecraft:paper"
+          }
+        ]
+      }
+    },
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
           }
         ]
       }
@@ -31,13 +41,15 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_honeycomb",
+      "has_paper",
+      "has_string"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:vegan_rabbit_hide"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

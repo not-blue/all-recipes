@@ -4,25 +4,15 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:gunpowder"
+        "recipes": "vegan_recipes:totem_of_undying"
       }
     },
-    "has_charcoal": {
+    "has_emerald_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:charcoal"
-          }
-        ]
-      }
-    },
-    "has_sand": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:sand"
+            "items": "minecraft:emerald_block"
           }
         ]
       }
@@ -31,13 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_charcoal",
-      "has_sand"
+      "has_emerald_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:gunpowder"
+      "vegan_recipes:totem_of_undying"
     ]
   }
 }

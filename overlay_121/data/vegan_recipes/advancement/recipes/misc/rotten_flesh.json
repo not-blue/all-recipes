@@ -4,25 +4,29 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:rotten_flesh"
       }
     },
-    "has_diamond": {
+    "has_meat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": "$minecraft:meat"
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_mushroom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": [
+              "minecraft:red_mushroom",
+              "minecraft:brown_mushroom",
+              "minecraft:shelf_mushroom"
+            ]
           }
         ]
       }
@@ -31,13 +35,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_meat",
+      "has_mushroom"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:rotten_flesh"
     ]
   }
 }

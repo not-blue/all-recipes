@@ -4,25 +4,15 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:vegan_turtle_scute"
       }
     },
-    "has_diamond": {
+    "has_bone_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
-          }
-        ]
-      }
-    },
-    "has_echo_shard": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:echo_shard"
+            "items": "minecraft:bone_block"
           }
         ]
       }
@@ -31,13 +21,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_bone_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:vegan_turtle_scute"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

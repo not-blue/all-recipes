@@ -4,25 +4,25 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_ink_sacs:vegan_honey_bottle"
       }
     },
-    "has_diamond": {
+    "has_sugar": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": "minecraft:sugar"
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": "#vegan_ink_sacs:small_flowers"
           }
         ]
       }
@@ -31,13 +31,14 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_sugar",
+      "has_flower"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_ink_sacs:vegan_honey_bottle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

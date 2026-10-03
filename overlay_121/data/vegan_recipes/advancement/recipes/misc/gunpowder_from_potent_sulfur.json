@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "vegan_recipes:gunpowder_from_potent_sulfur"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_potent_sulfur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potent_sulfur"
+          }
+        ]
+      }
+    },
+    "has_charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    },
+    "has_bonemeal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potent_sulfur",
+      "has_charcoal",
+      "has_bonemeal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vegan_recipes:gunpowder_from_potent_sulfur"
+    ]
+  }
+}

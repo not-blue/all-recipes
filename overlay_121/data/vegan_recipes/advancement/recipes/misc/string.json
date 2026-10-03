@@ -4,25 +4,31 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_recipes:nether_star"
+        "recipes": "vegan_recipes:string_from_wool"
       }
     },
-    "has_diamond": {
+    "has_the_other_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "vegan_recipes:string_from_wheat"
+      }
+    },
+    "has_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": "minecraft:wheat"
           }
         ]
       }
     },
-    "has_echo_shard": {
+    "has_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": "#minecraft:wool"
           }
         ]
       }
@@ -31,13 +37,16 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond",
-      "has_echo_shard"
+      "has_the_other_recipe",
+      "has_wheat",
+      "has_wool"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_recipes:nether_star"
+      "vegan_recipes:string_from_wheat",
+      "vegan_recipes:string_from_wool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

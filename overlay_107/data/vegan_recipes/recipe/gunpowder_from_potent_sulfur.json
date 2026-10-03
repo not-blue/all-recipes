@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gunpowder",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "cSc",
+    "bbb"
+  ],
+  "key": {
+    "b": "minecraft:bone_meal",
+    "c": "minecraft:charcoal",
+    "S": "minecraft:potent_sulfur"
+  },
+  "result": {
+    "count": 9,
+    "id": "minecraft:gunpowder"
+  }
+}
