@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "#vegan_recipes:meat"
-    ],
+    "#vegan_recipes:meat",
     [
       "minecraft:brown_mushroom",
       "minecraft:red_mushroom"
