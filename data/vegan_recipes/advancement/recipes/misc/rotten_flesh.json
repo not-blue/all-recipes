@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": "$minecraft:meat"
+            "items": "#vegan_recipes:meat"
           }
         ]
       }
